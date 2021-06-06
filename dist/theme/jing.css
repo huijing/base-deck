@@ -26,22 +26,15 @@
   --heading3-size: 1.55em;
   --heading4-size: 1em;
   --code-font: monospace;
-<<<<<<< HEAD:dist/theme/serif.css
-  --link-color: #51483D;
-  --link-color-dark: #25211c;
-  --link-color-hover: #8b7c69;
-  --selection-background-color: #26351C;
-=======
   --link-color: #0c0;
+  --link-color-dark: green;
   --link-color-hover: #006600;
   --selection-background-color: #0c0;
->>>>>>> 27f55fb (Customise revealjs for base-deck):dist/theme/jing.css
   --selection-color: #fff;
 }
 
 .reveal-viewport {
-<<<<<<< HEAD:dist/theme/serif.css
-  background: #F0F1EB;
+  background: #fafffa;
   background-color: var(--background-color);
 }
 
@@ -55,33 +48,12 @@
 .reveal ::selection {
   color: var(--selection-color);
   background: var(--selection-background-color);
-=======
-  background: #fafffa;
-  background-color: #fafffa;
-}
-
-.reveal {
-  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
-  font-size: 40px;
-  font-weight: normal;
-  color: #333;
-}
-
-.reveal ::selection {
-  color: #fff;
-  background: #0c0;
->>>>>>> 27f55fb (Customise revealjs for base-deck):dist/theme/jing.css
   text-shadow: none;
 }
 
 .reveal ::-moz-selection {
-<<<<<<< HEAD:dist/theme/serif.css
   color: var(--selection-color);
   background: var(--selection-background-color);
-=======
-  color: #fff;
-  background: #0c0;
->>>>>>> 27f55fb (Customise revealjs for base-deck):dist/theme/jing.css
   text-shadow: none;
 }
 
@@ -100,7 +72,6 @@
 .reveal h4,
 .reveal h5,
 .reveal h6 {
-<<<<<<< HEAD:dist/theme/serif.css
   margin: var(--heading-margin);
   color: var(--heading-color);
   font-family: var(--heading-font);
@@ -109,16 +80,6 @@
   letter-spacing: var(--heading-letter-spacing);
   text-transform: var(--heading-text-transform);
   text-shadow: var(--heading-text-shadow);
-=======
-  margin: 0 0 20px 0;
-  color: #372822;
-  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
-  font-weight: bold;
-  line-height: 1.2;
-  letter-spacing: normal;
-  text-transform: none;
-  text-shadow: none;
->>>>>>> 27f55fb (Customise revealjs for base-deck):dist/theme/jing.css
   word-wrap: break-word;
 }
 
@@ -333,43 +294,27 @@
  * LINKS
  *********************************************/
 .reveal a {
-<<<<<<< HEAD:dist/theme/serif.css
   color: var(--link-color);
-=======
-  color: #0c0;
->>>>>>> 27f55fb (Customise revealjs for base-deck):dist/theme/jing.css
   text-decoration: none;
   transition: color 0.15s ease;
 }
 
 .reveal a:hover {
-<<<<<<< HEAD:dist/theme/serif.css
   color: var(--link-color-hover);
-=======
-  color: #006600;
->>>>>>> 27f55fb (Customise revealjs for base-deck):dist/theme/jing.css
   text-shadow: none;
   border: none;
 }
 
 .reveal .roll span:after {
   color: #fff;
-<<<<<<< HEAD:dist/theme/serif.css
   background: var(--link-color-dark);
-=======
-  background: green;
->>>>>>> 27f55fb (Customise revealjs for base-deck):dist/theme/jing.css
 }
 
 /*********************************************
  * Frame helper
  *********************************************/
 .reveal .r-frame {
-<<<<<<< HEAD:dist/theme/serif.css
   border: 4px solid var(--main-color);
-=======
-  border: 4px solid #333;
->>>>>>> 27f55fb (Customise revealjs for base-deck):dist/theme/jing.css
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
 
@@ -378,11 +323,7 @@
 }
 
 .reveal a:hover .r-frame {
-<<<<<<< HEAD:dist/theme/serif.css
   border-color: var(--link-color);
-=======
-  border-color: #0c0;
->>>>>>> 27f55fb (Customise revealjs for base-deck):dist/theme/jing.css
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.55);
 }
 
@@ -390,11 +331,7 @@
  * NAVIGATION CONTROLS
  *********************************************/
 .reveal .controls {
-<<<<<<< HEAD:dist/theme/serif.css
   color: var(--link-color);
-=======
-  color: #0c0;
->>>>>>> 27f55fb (Customise revealjs for base-deck):dist/theme/jing.css
 }
 
 /*********************************************
@@ -402,11 +339,7 @@
  *********************************************/
 .reveal .progress {
   background: rgba(0, 0, 0, 0.2);
-<<<<<<< HEAD:dist/theme/serif.css
   color: var(--link-color);
-=======
-  color: #0c0;
->>>>>>> 27f55fb (Customise revealjs for base-deck):dist/theme/jing.css
 }
 
 /*********************************************
@@ -414,11 +347,7 @@
  *********************************************/
 @media print {
   .backgrounds {
-<<<<<<< HEAD:dist/theme/serif.css
     background-color: var(--background-color);
-=======
-    background-color: #fafffa;
->>>>>>> 27f55fb (Customise revealjs for base-deck):dist/theme/jing.css
   }
 }
 .reveal .l-multiple {
