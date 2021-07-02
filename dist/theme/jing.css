@@ -7,67 +7,35 @@
  * GLOBAL STYLES
  *********************************************/
 :root {
-<<<<<<< HEAD:dist/theme/jing.css
-  --background-color: #fafffa;
-  --main-font: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
-  --main-font-size: 40px;
-  --main-color: #333;
-  --block-margin: 20px;
-  --heading-margin: 0 0 20px 0;
-  --heading-font: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
-  --heading-color: #372822;
-  --heading-line-height: 1.2;
-  --heading-letter-spacing: normal;
-  --heading-text-transform: none;
-  --heading-text-shadow: none;
-  --heading-font-weight: bold;
-  --heading1-text-shadow: none;
-  --heading1-size: 3.77em;
-  --heading2-size: 2.11em;
-  --heading3-size: 1.55em;
-  --heading4-size: 1em;
-  --code-font: monospace;
-  --link-color: #0c0;
-  --link-color-dark: green;
-  --link-color-hover: #006600;
-  --selection-background-color: #0c0;
-  --selection-color: #fff;
-}
-
-.reveal-viewport {
-  background: #fafffa;
-  background-color: var(--background-color);
-=======
-  --r-background-color: #F0F1EB;
-  --r-main-font: Palatino Linotype, Book Antiqua, Palatino, FreeSerif, serif;
+  --r-background-color: #fafffa;
+  --r-main-font: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
   --r-main-font-size: 40px;
-  --r-main-color: #000;
+  --r-main-color: #333;
   --r-block-margin: 20px;
   --r-heading-margin: 0 0 20px 0;
-  --r-heading-font: Palatino Linotype, Book Antiqua, Palatino, FreeSerif, serif;
-  --r-heading-color: #383D3D;
+  --r-heading-font: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+  --r-heading-color: #372822;
   --r-heading-line-height: 1.2;
   --r-heading-letter-spacing: normal;
   --r-heading-text-transform: none;
   --r-heading-text-shadow: none;
-  --r-heading-font-weight: normal;
+  --r-heading-font-weight: bold;
   --r-heading1-text-shadow: none;
   --r-heading1-size: 3.77em;
   --r-heading2-size: 2.11em;
   --r-heading3-size: 1.55em;
   --r-heading4-size: 1em;
   --r-code-font: monospace;
-  --r-link-color: #51483D;
-  --r-link-color-dark: #25211c;
-  --r-link-color-hover: #8b7c69;
-  --r-selection-background-color: #26351C;
+  --r-link-color: #0c0;
+  --r-link-color-dark: green;
+  --r-link-color-hover: #006600;
+  --r-selection-background-color: #0c0;
   --r-selection-color: #fff;
 }
 
 .reveal-viewport {
-  background: #F0F1EB;
+  background: #fafffa;
   background-color: var(--r-background-color);
->>>>>>> master:dist/theme/serif.css
 }
 
 .reveal {
