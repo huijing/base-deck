@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
@@ -7,21 +7,129 @@
 			content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
 		/>
 
-		<title>reveal.js</title>
+		<title>TITLE</title>
 
 		<link rel="stylesheet" href="dist/reset.css" />
 		<link rel="stylesheet" href="dist/reveal.css" />
-		<link rel="stylesheet" href="dist/theme/black.css" />
-
-		<!-- Theme used for syntax highlighted code -->
-		<link rel="stylesheet" href="dist/plugin/highlight/monokai.css" />
+		<link rel="stylesheet" href="dist/theme/jing.css" />
+		<link rel="stylesheet" href="dist/plugin/highlight/atom-one-light.css" />
 	</head>
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+				<section>
+					<h1>Title</h1>
+					<p>
+						<small
+							>By <a href="https://chenhuijing.com/">Chen Hui Jing</a> /
+							<a href="https://tech.lgbt/@huijing">@huijing@tech.lgbt</a></small
+						>
+					</p>
+					<aside class="notes"></aside>
+				</section>
+
+				<section>
+					<div class="intro-grid">
+						<span class="emoji" role="img" tabindex="0" aria-label="Malaysia"
+							>&#x1F1F2;&#x1F1FE;</span
+						>
+						<span class="emoji" role="img" tabindex="0" aria-label="alien monster">&#x1F47E;</span>
+						<span class="emoji" role="img" tabindex="0" aria-label="basketball">&#x1F3C0;</span>
+						<span class="emoji" role="img" tabindex="0" aria-label="bicycle">&#x1F6B2;</span>
+						<span class="emoji" role="img" tabindex="0" aria-label="paintbrush"
+							>&#x1F58C;&#xFE0F;</span
+						>
+						<span class="emoji" role="img" tabindex="0" aria-label="sneaker">&#x1F45F;</span>
+						<span class="emoji" role="img" tabindex="0" aria-label="laptop computer"
+							>&#x1F4BB;</span
+						>
+						<span class="emoji" role="img" tabindex="0" aria-label="pen">&#x1F58A;&#xFE0F;</span>
+						<span class="emoji" role="img" tabindex="0" aria-label="studio microphone"
+							>&#x1F399;</span
+						>
+						<span class="emoji" role="img" tabindex="0" aria-label="black cat"
+							>&#x1F408;&#x200D;&#x2B1B;</span
+						>
+						<span class="emoji" role="img" tabindex="0" aria-label="person climbing"
+							>&#x1F9D7;</span
+						>
+						<span class="emoji" role="img" tabindex="0" aria-label="Rainbow flag"
+							>&#x1F3F3;&#xFE0F;&#x200D;&#x1F308;</span
+						>
+						<div
+							style="
+								display: flex;
+								flex-direction: column;
+								align-items: center;
+								justify-content: center;
+							"
+						>
+							<img
+								data-src="img/name-black.svg"
+								alt="Chen Hui Jing"
+								class="plain"
+								style="max-height: 20vh"
+							/>
+							<div>
+								<img
+									data-src="img/avatar.jpg"
+									alt="Jing"
+									style="border-radius: 50%; max-height: 30vh"
+								/>
+							</div>
+							<a href="https://tech.lgbt/@huijing">@huijing@tech.lgbt</a>
+						</div>
+					</div>
+					<aside class="notes"></aside>
+				</section>
+
+				<section style="text-align: left">
+					<h1>Thank you</h1>
+					<p class="align-icon">
+						<img class="j-icon plain" data-src="img/home.png" alt="Website" /><a
+							href="https://chenhuijing.com"
+							>https://chenhuijing.com</a
+						>
+					</p>
+					<p class="align-icon">
+						<img class="j-icon plain" data-src="img/bluesky.png" alt="Mastadon" /><a
+							href="https://bsky.app/profile/huijing.bsky.social"
+							>@huijing.bsky.social</a
+						>
+					</p>
+					<p class="align-icon">
+						<img class="j-icon plain" data-src="img/mastadon.png" alt="Mastadon" /><a
+							href="https://tech.lgbt/@huijing"
+							>@huijing@tech.lgbt</a
+						>
+					</p>
+					<p class="align-icon">
+						<img class="j-icon plain" data-src="img/github.png" alt="GitHub" /><a
+							href="https://github.com/huijing"
+							>@huijing</a
+						>
+					</p>
+					<p style="text-align: right">
+						<small>Font is <a href="#">TYPEFACE</a> by <a href="#">FOUNDRY</a>.</small>
+					</p>
+				</section>
 			</div>
+
+			<footer
+				style="
+					position: absolute;
+					width: calc(100% - 1em);
+					bottom: 0;
+					font-size: 40%;
+					z-index: 1;
+					display: flex;
+					justify-content: space-between;
+					padding: 0.5em;
+				"
+			>
+				<span>https://huijing.github.io/slides/TITLE</span
+				><span style="text-align: right">@huijing.bsky.social | @huijing@tech.lgbt</span>
+			</footer>
 		</div>
 
 		<script src="dist/reveal.js"></script>
@@ -29,14 +137,12 @@
 		<script src="dist/plugin/markdown.js"></script>
 		<script src="dist/plugin/highlight.js"></script>
 		<script>
-			// More info about initialization & config:
-			// - https://revealjs.com/initialization/
-			// - https://revealjs.com/config/
 			Reveal.initialize({
+				width: 1920,
+				height: 1080,
 				hash: true,
-
-				// Learn about plugins: https://revealjs.com/plugins/
 				plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
+				transition: 'fade',
 			});
 		</script>
 	</body>
